@@ -1,0 +1,41 @@
+-plot
+;detailed plot configuration
+Y 
+;layout name
+LAYOUT1
+;output device
+PDF995
+;paper size
+A1
+;paper units
+M
+;drawing orientation
+L
+;upside down
+N
+;plot area
+E
+;plot scale
+1:1
+;plot offset
+C
+;plot styles
+Y
+;plot style table name
+NG-Halcrow Standard RC A0-A1.ctb
+;plot lineweights
+Y
+;scale lineweights
+N
+;paper space first
+N
+;hide paperspace objects
+N
+;plot to file
+N
+;save page setup
+Y
+; proceed with plot
+N
+QSAVE
+;;-END OF SCRIPT-

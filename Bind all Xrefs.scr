@@ -1,0 +1,15 @@
+;; BIND ALL XREFS.scr
+;;
+LAYER SET 0 
+;;
+PURGE ALL * N
+;;
+AUDIT Y
+;;
+XREF BIND *
+;;
+ZOOM EXTENTS
+;;
+QSAVE
+;;
+;;-END OF SCRIPT-

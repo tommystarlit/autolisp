@@ -1,0 +1,15 @@
+;; Inside brackets is AutoLISP command for block inserting.
+-INSERT
+"Path"
+0,0
+1
+1
+0
+;; Where Path is directory to your file including filename with .dwg extension. For example:
+;; "C:\\Users\\SS039694\\Documents\\My block.dwg" Two backslashes and citation marks are necessary.
+;; 0,0 - insertion point
+;; 1 - X scale factor
+;; 1 - Y scale facotr
+;; 0 - rotation
+;; Below is AutoLISP command that do the same.
+;; (command "-INSERT" "Path" "0,0" "1" "1" "0")
